@@ -1436,4 +1436,25 @@ body {
 .cid-rhRZEw2XCS .mbr-text,
 .cid-rhRZEw2XCS .mbr-section-btn {
   color: #232323;
+  text-align: left;
+}
+.cid-rhS3GEFlep {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rhS3GEFlep h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-rhS3GEFlep p {
+  color: #767676;
+  text-align: left;
+}
+.cid-rhS3GEFlep .card-box {
+  padding-top: 2rem;
+}
+.cid-rhS3GEFlep .card-wrapper {
+  height: 100%;
 }

@@ -1474,7 +1474,7 @@ body {
   background: transparent !important;
 }
 .cid-rhS50246p0 .mbr-gallery-item > div:hover:before {
-  opacity: 0.7 !important;
+  opacity: 0 !important;
 }
 .cid-rhS50246p0 .mbr-gallery-title {
   font-size: .9em;
@@ -1495,7 +1495,7 @@ body {
   z-index: -1;
   position: absolute;
   background: #554346 !important;
-  opacity: 0.7;
+  opacity: 0;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;

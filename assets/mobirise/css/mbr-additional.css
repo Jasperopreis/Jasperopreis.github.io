@@ -1385,9 +1385,9 @@ body {
   background-image: url("../../../assets/images/img-20190204-184604-2000x1500.jpg");
 }
 .cid-rhPBuhqh6x {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #efefef;
+  padding-top: 75px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
 }
 .cid-rhPBuhqh6x .card-box {
   padding: 0 2rem;
@@ -1422,6 +1422,47 @@ body {
   transition: box-shadow 0.3s;
 }
 .cid-rhPBuhqh6x .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-rhSc9vLtCd {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rhSc9vLtCd .card-box {
+  padding: 0 2rem;
+}
+.cid-rhSc9vLtCd .mbr-section-btn {
+  padding-top: 1rem;
+}
+.cid-rhSc9vLtCd .mbr-section-btn a {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.cid-rhSc9vLtCd h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
+}
+.cid-rhSc9vLtCd p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+  padding-top: 2rem;
+}
+.cid-rhSc9vLtCd .mbr-text {
+  color: #767676;
+}
+.cid-rhSc9vLtCd .card-wrapper {
+  height: 100%;
+  padding-bottom: 2rem;
+  background: #ffffff;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rhSc9vLtCd .card-wrapper:hover {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
 }

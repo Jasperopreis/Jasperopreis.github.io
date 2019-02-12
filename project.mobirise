@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 12,
+    "uniqCompNum": 13,
     "versionPublish": "4.9.2",
     "screenshot": "screenshot.png"
   },
@@ -200,6 +200,50 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".google-map": {
+              "height": "25rem",
+              "position": "relative",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "font-family": "Montserrat",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                },
+                "&::after": {}
+              }
+            }
+          },
+          "_name": "map2",
+          "_customHTML": "<section class=\"map2\" group=\"Maps\">\n\n    <mbr-parameters>\n    <!-- Block of parameters for component -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\" step=\"1\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\" step=\"1\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n        <input type=\"map\" title=\"Kaart\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m76!1m12!1m3!1d2042052.9833991677!2d-80.75781266802163!3d-1.535981989885794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m61!3e0!4m5!1s0x91d59a4002427c9f%3A0x44b991e158ef5572!2sQuito!3m2!1d-0.18065319999999999!2d-78.4678382!4m5!1s0x91d44e5dbbd52ce7%3A0x61297ba77301c1e8!2sCotopaxi!3m2!1d-0.6837540999999999!2d-78.4371901!4m5!1s0x91d461069d795bd1%3A0xc0a05fcabeea8fbb!2sLatacunga!3m2!1d-0.9315559999999999!2d-78.60584999999999!4m5!1s0x91d4ec63df38bf93%3A0x94893a33a69aba94!2sQuilotoa!3m2!1d-0.8480555999999999!2d-78.9119444!4m5!1s0x91d3912260082689%3A0xdb67c8f2fcd8aee9!2sBa%C3%B1os+de+Agua+Santa!3m2!1d-1.3928344!2d-78.42687579999999!4m5!1s0x91cd18095fc7e881%3A0xafd08fd090de6ff7!2sCuenca!3m2!1d-2.9001284999999997!2d-79.00589649999999!4m5!1s0x902c2b2f567387a1%3A0xd3bd8f036750f07d!2sOl%C3%B3n+Ecuador!3m2!1d-1.7974617!2d-80.7604219!4m5!1s0x902c2824171f4831%3A0xcdc45714122e0efc!2sAyampe!3m2!1d-1.6795069999999999!2d-80.80371099999999!4m5!1s0x902c209e7da5d7f1%3A0x760b16a06ba83fd3!2sPuerto+L%C3%B3pez!3m2!1d-1.5539322!2d-80.8045568!4m5!1s0x902a481fe5f3fc81%3A0x555a216c0ef13c0a!2sCanoa!3m2!1d-0.4637769!2d-80.4535121!5e0!3m2!1snl!2sec!4v1549983028671&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen></iframe>\">\n    <!-- End block of parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-8\">\n                <div class=\"google-map\" mbr-map=\"googleMap\">\n            </div>\n        </div>\n    </div>\n</div></section>",
+          "_cid": "rhSgPgaXeO",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "map2-c"
         }
       ]
     },

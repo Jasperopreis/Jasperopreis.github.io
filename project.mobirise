@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "Ayampe.html",
+    "currentPage": "Cotopaxi.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -616,8 +616,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-20190111-143218-2000x2667.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20190111-143218-2000x2667-800x1200.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20190111-143219-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20190111-143219-2000x2667-800x1200.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -681,8 +681,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-20190113-112448-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20190113-112448-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20190113-112449-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20190113-112449-2000x1500-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",

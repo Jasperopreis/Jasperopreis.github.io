@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "Quito.html",
+    "currentPage": "Quilotoa.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -834,32 +834,6 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
-                "tags": "Geweldige",
-                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-20190114-114728-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20190114-114728-2000x1500-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Laguna de Quilotoa 1",
-                "active": true
-              },
-              {
-                "tags": "Sympathieke",
-                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-20190114-115719-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20190114-115719-2000x1500-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Laguna de Quilotoa 2",
-                "active": true
-              },
-              {
                 "tags": "Bewegende",
                 "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
                 "playVideo": false,
@@ -869,8 +843,34 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Laguna de Quilotoa 3",
+                "caption": "Laguna de Quilotoa 1",
                 "active": true
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20190114-114729-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20190114-114729-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Laguna de Quilotoa 2",
+                "active": false
+              },
+              {
+                "tags": "Bewegende",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-20190114-115718-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20190114-115718-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Laguna de Quilotoa 3",
+                "active": false
               }
             ]
           }

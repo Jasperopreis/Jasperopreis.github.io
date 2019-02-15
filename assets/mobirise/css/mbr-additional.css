@@ -1910,6 +1910,19 @@ body {
 .cid-rhT69ykJnm .mbr-gallery-item > div > span {
   color: #232323;
 }
+.cid-ri7dFnZcLw {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-ri7dFnZcLw .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-ri7dFnZcLw .video-block {
+    width: 100% !important;
+  }
+}
 .cid-rhT6coJVGN {
   padding-top: 90px;
   padding-bottom: 90px;

@@ -1818,6 +1818,19 @@ body {
 .cid-rhT5PwwkZ4 .mbr-gallery-item > div > span {
   color: #232323;
 }
+.cid-ri7c3lNZMx {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-ri7c3lNZMx .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-ri7c3lNZMx .video-block {
+    width: 100% !important;
+  }
+}
 .cid-rhT69xoxMm {
   padding-top: 90px;
   padding-bottom: 90px;

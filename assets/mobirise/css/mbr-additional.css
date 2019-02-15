@@ -2167,3 +2167,16 @@ body {
 .cid-rhT6ku2SQ9 .mbr-gallery-item > div > span {
   color: #232323;
 }
+.cid-riaTVpaEMx {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-riaTVpaEMx .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-riaTVpaEMx .video-block {
+    width: 100% !important;
+  }
+}

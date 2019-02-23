@@ -2162,7 +2162,7 @@ body {
 }
 .cid-rhT6ktfZop {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-rhT6ktfZop H1 {
@@ -2178,9 +2178,13 @@ body {
 .cid-rhT6ktfZop .mbr-section-btn P {
   color: #232323;
 }
+.cid-rhT6ktfZop P {
+  color: #232323;
+  text-align: left;
+}
 .cid-rhT6ku2SQ9 {
   padding-top: 0px;
-  padding-bottom: 90px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-rhT6ku2SQ9 .mbr-slider .carousel-control {

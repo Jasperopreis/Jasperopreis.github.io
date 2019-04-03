@@ -2319,3 +2319,96 @@ body {
   color: #232323;
   text-align: left;
 }
+.cid-rmBfeEWkdl {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rmBfeEWkdl .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-rmBfeEWkdl .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-rmBfeEWkdl .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-rmBfeEWkdl .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-rmBfeEWkdl .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+  background: linear-gradient(to left, #ffffff, #ffffff) !important;
+}
+.cid-rmBfeEWkdl .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-rmBfeEWkdl .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-rmBfeEWkdl .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-rmBfeEWkdl .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #ffffff !important;
+  opacity: 0.7;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+  background: linear-gradient(to left, #ffffff, #ffffff) !important;
+}
+.cid-rmBfeEWkdl .mbr-gallery-item > div > span {
+  color: #232323;
+}
+.cid-rmBjeAHfNq {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #ffffff, #ffffff);
+}
+.cid-rmBjeAHfNq .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-rmBjeAHfNq .video-block {
+    width: 100% !important;
+  }
+}
+.cid-rmBdf7n9AR {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rmBdf7n9AR H1 {
+  color: #232323;
+  text-align: left;
+}
+.cid-rmBdf7n9AR .mbr-text,
+.cid-rmBdf7n9AR .mbr-section-btn {
+  color: #232323;
+  text-align: left;
+}

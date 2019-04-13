@@ -3380,7 +3380,7 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Toon pijl\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Ayahuasca 29-31 maart</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Knappe websites voor mobiel\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Ayahuasca</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\">LEER MEER</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Schermvullend\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Toon pijl\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Toon titel\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Toon ondertitel\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Toon knoppen\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Achtergrondafbeelding\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Achtergrondkleur\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Achtergrondvideo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Doorschijnendheid\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Ayahuasca (Yage) 29-31 maart</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Knappe websites voor mobiel\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Ayahuasca, het medicijn vind jou werd mij verteld tijdens het weekend. Zit misschien wel wat waarheid in als ik er zo over denk. Zonder er veel aandacht aan te besteden dacht ik wel dat, mocht het zo zijn, ik het dan wel tijdens mijn reis zou moeten doen. In Ecuador ben ik ook veel reizigers tegen gekomen die het hadden ervaren. Met allen zeer positieve ervaringen, van nuchtere Nederlanders tot spiritueel zweverige types.&nbsp;<br><br>Mijn eerste dag in Colombia acclimatiseer ik wat en probeer ik een beetje te plannen hoe ik mijn tijd hier wil besteden. Hierbij lees ik me toch ook maar wat in over ayahuasca en het gebruik in Colombia. Als ik s'middags een was sta te draaien in het hostel raak ik aan de praat met een meisje uit Canada. Ik vraag naar haar ervaringen in Medellin en omgeving. Ze verteld me dat ze net terug is van een ayahuasca ceremonie vlak buiten de stad. Het was de zevende keer dat ze deelnam aan een ceremonie en veruit haar beste ervaring. Dat is toevallig, vertel ik haar, aangezien ik er net onderzoek naar deed. Ze raadt het me dan ook ten zeerste aan en geeft me de contact gegevens. Het zal dan wel zo moeten zijn...<br><br>Nadat ik wat verder onderzoek heb verricht over de commune waar het gehouden wordt en wat informatie van ze heb verkregen besluit ik te boeken. Ik verkrijg de laatst overgebleven plek voor de ceremonie van 3 dagen van het volgende weekend. Na een week het dieet gevolgd te hebben word ik met de andere 10 deelnemers opgepikt in Medellin. Wat me tevreden stemt is dat het voor iedereen die deelneemt de eerste keer is en net zo onervaren zijn als ik. Ik besluit als niet spiritueel persoon er zo open mogelijk in te gaan zonder sceptisch te zijn.&nbsp;<br><br>Bij aankomst krijgen we kamers in het huis toegewezen en relaxen wat totdat het tijd is voor een douche met water bereidt van kruiden. Dit om onze energy te harmonizeren, altijd prettig. Om 8 uur s'avonds is het tijd om plaats te nemen in de traditionele hut voor de ceremonie. Alles is voorbereidt door &nbsp;leden van de commune. Het begint met het nemen van Ambil (pasta van tabak) en Mambe (gemalen coca blad). Dit om beter aan de voorafgaande conversatie/topic deel nemen (circle of word). Aan het einde hiervan volgt een gebed en een traditioneel lied en dans. Hierna is het tijd voor de eerste kop ayahuasca. Iedereen staat toch wel wat nerveus in een rij te wachten. Het is welbekend dat het brouwsel aardig ranzig smaakt, hier is dan ook niks van gelogen. Voorafgaand aan de ceremonie is uitgelegd dat je lichaam eerst aan het medicijn moet wennen en het je negatieve energie kwijt moet. Dit betekent (vrij snel) veel purgen, wat dan weer betekent dat je veel moet overgeven in een emmer en naar de wc moet die zich buiten de hut bevinden.&nbsp;<br><br>Nadat iedereen zijn drankje heeft gehad neemt ieder plaats op zijn matras in de hut en gaat het licht uit. Het is de bedoeling dat eerst je spirit alles over je leven laat weten. Je moet focussen op je eerste herrineringen oplopend tot het heden. Dit blijkt nog vrij lastig aangezien mijn lichaam het brouwsel met moeite accepteerd.&nbsp;<br><br><br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\">LEER MEER</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "rnxqiUD5sj",
           "_protectedParams": [],
           "_global": false,
@@ -3461,7 +3461,7 @@
             }
           },
           "_name": "gallery1",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n    </div>\n\n</section>",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "rnxqiVZIWz",
@@ -3483,8 +3483,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/55504347-2394828353861317-8218132359950630912-n-960x851.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/55504347-2394828353861317-8218132359950630912-n-960x851-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/55869082-2130766613665982-6702458604718391296-o-1032x502.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/55869082-2130766613665982-6702458604718391296-o-1032x502-669x502.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -3496,8 +3496,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-20190323-144737-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20190323-144737-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20190331-170135-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20190331-170135-2000x1500-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -3509,8 +3509,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-20190322-194139-2000x2667.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20190322-194139-2000x2667-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20190331-170251-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20190331-170251-2000x1500-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -3522,215 +3522,17 @@
                 "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-20190404-163346-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20190404-163346-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20190401-83507-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-20190401-83507-2000x1500-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Dagtrip",
-                "active": false
-              },
-              {
-                "tags": "Geweldige",
-                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-20190404-164341-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20190404-164341-2000x1500-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Fábrica de Arte",
+                "caption": "Verblijf",
                 "active": true
-              },
-              {
-                "tags": "Geweldige",
-                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-20190404-150604-2000x2667.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20190404-150604-2000x2667-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Tabacco",
-                "active": false
-              },
-              {
-                "tags": "Geweldige",
-                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-20190325-84621-2000x2667.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20190325-84621-2000x2667-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "",
-                "active": false
-              },
-              {
-                "tags": "Sympathieke",
-                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-20190327-110042-2000x2667.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20190327-110042-2000x2667-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "",
-                "active": false
               }
             ]
           },
           "_anchor": "gallery1-29"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-slider .carousel-control": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-slider .carousel-control-prev": {
-              "left": "0",
-              "margin-left": "2.5rem"
-            },
-            ".mbr-slider .carousel-control-next": {
-              "right": "0",
-              "margin-right": "2.5rem"
-            },
-            ".mbr-slider .modal-body .close": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-gallery-item > div::before": {
-              "content": "''",
-              "position": "absolute",
-              "left": "0",
-              "top": "0",
-              "width": "100%",
-              "height": "100%",
-              "background": "@overlayColor",
-              "opacity": "0",
-              "-webkit-transition": "0.2s opacity ease-in-out",
-              "transition": "0.2s opacity ease-in-out",
-              "& when (@gradOverlay)": {
-                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
-              }
-            },
-            ".mbr-gallery-item > div:hover": {
-              ".mbr-gallery-title::before": {
-                "background": "transparent !important"
-              },
-              "&:before": {
-                "opacity": "@overlayOpacity !important"
-              }
-            },
-            ".mbr-gallery-title": {
-              "font-size": ".9em",
-              "position": "absolute",
-              "display": "block",
-              "width": "100%",
-              "bottom": "0",
-              "padding": "1rem",
-              "color": "#fff",
-              "z-index": "2",
-              "&:before": {
-                "content": "\" \"",
-                "width": "100%",
-                "height": "100%",
-                "top": "0",
-                "left": "0",
-                "z-index": "-1",
-                "position": "absolute",
-                "background": "@overlayColor !important",
-                "opacity": "@overlayOpacity",
-                "-webkit-transition": "0.2s background ease-in-out",
-                "transition": "0.2s background ease-in-out",
-                "& when (@gradOverlay)": {
-                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
-                }
-              }
-            },
-            ".mbr-gallery-item > div > span": {
-              "color": "#232323"
-            }
-          },
-          "_name": "gallery1",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "rnxqiXAQAp",
-          "_protectedParams": [
-            "text_all",
-            "gallery__filtersTextStyle",
-            "gallery__filtersBtnStyle",
-            "gallery"
-          ],
-          "_global": false,
-          "_once": false,
-          "_params": {
-            "text_all": "All",
-            "gallery__filtersTextStyle": "display-7",
-            "gallery__filtersBtnStyle": "btn-primary-outline",
-            "gallery": [
-              {
-                "tags": "Geweldige",
-                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-20190327-101754-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20190327-101754-2000x1500-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Onderschrift hier",
-                "active": false
-              },
-              {
-                "tags": "Sympathieke",
-                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-20190402-133733-2000x2667.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20190402-133733-2000x2667-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Onderschrift hier",
-                "active": false
-              },
-              {
-                "tags": "Creatieve",
-                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-20190402-105813-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20190402-105813-2000x1500-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Onderschrift hier",
-                "active": false
-              },
-              {
-                "tags": "Bewegende",
-                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-20190403-145943-2000x1500.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20190403-145943-2000x1500-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Onderschrift hier",
-                "active": true
-              }
-            ]
-          },
-          "_anchor": "gallery1-2a"
         }
       ]
     }

@@ -2916,3 +2916,17 @@ body {
 .cid-rnxqiVZIWz .mbr-gallery-item > div > span {
   color: #232323;
 }
+.cid-rnEcwKTTld {
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #ffffff, #ffffff);
+}
+.cid-rnEcwKTTld .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-rnEcwKTTld .video-block {
+    width: 100% !important;
+  }
+}
